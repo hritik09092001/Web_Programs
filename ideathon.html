@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        /* Add some style to the navigation bar */
+
+        body {
+            background-image: url("https://png.pngtree.com/background/20211215/original/pngtree-working-people-picture-image_1481548.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            backface-visibility: visible;
+        }
+
+        .content {
+            float: right;
+            border: black;
+            padding-top: 30px;
+            line-height: 2em;
+            margin-top: 150px;
+            font-size: 18px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            color: #f1f1e2;
+        }
+
+        .navbar {
+            background-color: rgb(5, 1, 1);
+            overflow: hidden;
+            border-radius: 20px;
+        }
+
+        .navbar a {
+            float: right;
+            display: block;
+            color: rgb(253, 247, 247);
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: #ddd;
+            border-radius: 15px;
+            color: black;
+        }
+
+        /* Add some style to the dropdown menu */
+        .navbar .dropdown {
+            float: right;
+            overflow: hidden;
+        }
+
+        .navbar .dropdown .dropbtn {
+
+            font-size: 16px;
+            border: none;
+            outline: none;
+            color: white;
+            padding: 14px 16px;
+            background-color: inherit;
+            border-radius: 15px;
+            font-family: inherit;
+            margin: 0;
+        }
+
+        .navbar .dropdown:hover .dropbtn {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .navbar .dropdown-content {
+
+            display: none;
+            position: absolute;
+            background-color: #f1f1e2;
+            border-radius: 20px;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .navbar .dropdown-content a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .navbar .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+        .navbar .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Add a navigation bar with a dropdown menu -->
+    <div class="navbar">
+        <a href="#">Contact</a>
+        <a href="#">Search</a>
+        <div class="dropdown">
+            <button class="dropbtn">Services
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Electrician</a>
+                <a href="#">Plumber</a>
+                <a href="#">Event Service</a>
+                <a href="#">Cleaning</a>
+                <a href="#">Clothing</a>
+                <a href="#">Personal Service</a>
+            </div>
+        </div>
+        <a href="#">About</a>
+        <a href="#">Home</a>
+        
+
+    </div>
+    <div class="content">
+        <h2 style="color: black;">There's a better way to grow.</h2>
+        <pre>
+            Marketing, sales,and service software that helps
+            your business grow without compromise. Because 
+            "good for the business" should also mean "good for 
+            the customer."</pre>
+    </div>
+</body>
+
+</html>
